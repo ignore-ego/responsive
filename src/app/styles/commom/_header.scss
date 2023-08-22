@@ -1,0 +1,32 @@
+.header {
+  &-secondary {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  &-search {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    justify-self: start;
+    background: teal;
+  }
+
+  &-controls {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background: lightgreen;
+  }
+
+  &-logo {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    text-align: center;
+    justify-self: center;
+    background: lightcoral;
+  }
+
+  img {
+    max-width: 80px;
+  }
+}

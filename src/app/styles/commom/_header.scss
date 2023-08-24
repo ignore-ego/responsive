@@ -9,13 +9,11 @@
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     justify-self: start;
-    background: teal;
   }
 
   &-controls {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    background: lightgreen;
   }
 
   &-logo {
@@ -23,7 +21,6 @@
     grid-row: 1 / 2;
     text-align: center;
     justify-self: center;
-    background: lightcoral;
   }
 
   img {

@@ -2,11 +2,7 @@ import ProductTile from './ProductTile';
 
 export default function CatalogPreview() {
   return (
-    <ul>
-      <li>
-        <ProductTile></ProductTile>
-      </li>
-
+    <ul className="catalog-preview">
       <li>
         <ProductTile></ProductTile>
       </li>

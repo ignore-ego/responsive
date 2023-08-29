@@ -45,6 +45,20 @@
 
   &-contact {
     grid-area: contact;
+
+    h1 {
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: 300;
+    }
+
+    span {
+      font-weight: 700;
+    }
+
+    a[href^='mailto:'] {
+      color: $brand-primary;
+    }
   }
 
   &-connect {
@@ -55,5 +69,27 @@
       justify-self: start;
       align-self: center;
     }
+
+    ul {
+      display: flex;
+      gap: 16px;
+      text-align: center;
+    }
+
+    i[class*='fa-'] {
+      color: $brand-primary;
+      display: block;
+      font-size: 36px;
+      margin-bottom: 8px;
+    }
+
+    a {
+      display: block;
+      text-transform: uppercase;
+    }
+  }
+
+  &-secondary {
+    text-align: center;
   }
 }

@@ -156,8 +156,14 @@ export default function Footer() {
               <span>Thread Affair</span> Milano
             </h1>
             <p>
-              Largo Augusto 3, Milano, 20122, Milano, IT Tel: 0039 02 760 003 66
-              office@thread-affair.com
+              Largo Augusto 3, Milano, 20122, Milano, IT <br />
+              <a href="tel:+0039 02 760 003 66" title="Call us">
+                Tel: 0039 02 760 003 66
+              </a>
+              <br />
+              <a href="mailto:office@thread-affair.com" title="Email Us">
+                office@thread-affair.com
+              </a>
             </p>
           </section>
 
@@ -165,21 +171,21 @@ export default function Footer() {
             <ul>
               <li>
                 <a href="" title="">
-                  <i className="fa-solid"></i>
+                  <i className="fa-solid fa-phone"></i>
                   Support
                 </a>
               </li>
 
               <li>
                 <a href="" title="">
-                  <i className="fa-solid"></i>
+                  <i className="fa-solid fa-comment"></i>
                   Chat
                 </a>
               </li>
 
               <li>
                 <a href="" title="">
-                  <i className="fa-solid"></i>
+                  <i className="fa-solid fa-envelope"></i>
                   Email
                 </a>
               </li>
@@ -188,7 +194,23 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="footer-secondary">do your work boy</div>
+      <div className="footer-secondary">
+        <p>©2023 THREAD AFFAIR. All Rights Reserved.</p>
+
+        <p>
+          Designed By
+          <a
+            href="https://pixellab.ro"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Pixellab.ro"
+          >
+            <picture>
+              <img src="/images/pixellab_logo.jpg" alt="pixellab-logo" />
+            </picture>
+          </a>
+        </p>
+      </div>
     </>
   );
 }
